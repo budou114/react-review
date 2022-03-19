@@ -1,8 +1,8 @@
 import { useState, useCallback, useMemo } from 'react';
 import './App.css';
 import { ChildArea } from './ChildArea';
+import { CssModules } from './components/CssModules';
 import { InlineStyle } from './components/InlineStyle';
-
 
 export default function App() {
   console.log('App');
@@ -41,6 +41,7 @@ export default function App() {
       </div>
       
       <InlineStyle />
+      <CssModules />
     </div>
   );
 }
